@@ -1,0 +1,216 @@
+:root {
+  --header-color: #212121;
+  --btn-color: #ffffff;
+  --accent-color: #2196f3;
+  --first-title-color: #ffffff;
+  --second-title-color: #212121;
+}
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.list,
+.list-portfolio,
+.portfolio-filters {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.link-current {
+  text-decoration: none;
+}
+
+/*------------------------НEADER------------------------*/
+
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.header-logo-color {
+  color: var(--header-color);
+}
+
+.header-link,
+.header-email,
+.header-tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--header-color);
+}
+
+.header-link:hover,
+.header-link:focus,
+.header-email:hover,
+.header-email:focus,
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
+.link-current {
+  color: var(--accent-color);
+}
+
+/*.header-tel 
+{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}*/
+
+.section-title {
+  background: #2f303a;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--first-title-color);
+}
+.header-btn {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: var(--accent-color);
+}
+
+/*------------------------Section(Преимущества)------------------------*/
+
+.list-decision {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.list-task {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*------------------------Section(Чем занимаемся)------------------------*/
+.about-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--second-title-color);
+}
+
+/*------------------------Section(Наша команда)------------------------*/
+.heroes {
+  background: #f5f4fa;
+}
+.about-heroes {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
+}
+.list-heroes {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--second-title-color);
+}
+.list-specialties {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*------------------------FOOTER------------------------*/
+
+.footer-link {
+  background: #2f303a;
+}
+.footer-logo {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.footer-logo-color {
+  color: var(--first-title-color);
+}
+.footer-adress {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--first-title-color);
+}
+.footer-mailto,
+.footer-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mailto:hover,
+.footer-mailto:focus,
+.footer-tel:hover,
+.footer-tellipse,
+.footer-adress:hover,
+.footer-adress:focus {
+  color: var(--accent-color);
+}
+/*------------------------PORTFOLIO------------------------*/
+
+/*------------------------ФИЛЬТРЫ------------------------*/
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/*------------------------Список инструментов------------------------*/
+.list-portfolio {
+  cursor: pointer;
+}
