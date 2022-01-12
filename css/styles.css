@@ -6,6 +6,7 @@
   --second-title-color: #212121;
 }
 .body {
+  margin: 0px;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -214,4 +215,24 @@
 .list-portfolio {
   cursor: pointer;
 }
-/*------------------------Список инструментов------------------------*/
+/*------------------------Геометрия стилей------------------------*/
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.container {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px auto;
+}
+.container-section-title {
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0px auto;
+}
