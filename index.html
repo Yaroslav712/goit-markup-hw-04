@@ -23,10 +23,11 @@
 
     <!--Шапка -->
 <header class="header">
-<div class="container">
-    <nav class="header-nav">
 
+    <nav class="container main-nav">
+         
         <a class="link header-logo" href="WebStudio">Web <span class="header-logo-color">Studio</span> </a>
+        
         <ul class="list header-list">
             <li class="header-item">
                 <a class="link-current header-link" href="index.html">Студия</a>
@@ -37,18 +38,19 @@
             <li class="header-item">
                 <a class="link header-link" href="Контакты">Контакты</a>
             </li>
-        </ul>
-    </nav>
-     <ul class="list">
-        <li><a class="link header-email" href="emаil:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-    
-    </div>
-    </ul>
+</ul>
 
+     <ul class="list-contacts">
+        <li class="header-item"><a class="link header-email" href="emаil:info@devstudio.com">info@devstudio.com</a></li>
+        <li class="header-item"><a class="link header-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+    </nav>
+</div>
+    </ul>
+</div>
 </header>
         
         <main>
+           
         <section class="section-title">
         <h1 class="title">Эффективные решения для вашего бизнеса</h1>
         <button type="button" class="header-btn">Заказать услугу</button>
@@ -56,6 +58,7 @@
   
 
         <!--Преимущества -->
+            <div class="container">
         <section class="section-list" >
             
         <ul class="list">
@@ -100,29 +103,30 @@
         <!--Секция Наша команда -->
         <section class="heroes" >
             <h2 class="about-heroes">Наша команда</h2>
-            <ul class="list">
-                <li>
+            <ul class="heroes-list">
+                <li class="list-team">
                      <img src="./images/photo-1.jpg" alt="Product Designer" width="270" height="260" />
                      <h3 class="list-heroes" >Игорь Демьяненко</h3>
                      <p class="list-specialties">Product Designer</p>
                 </li>
-                <li>
+                <li class="list-team" >
                     <img src="./images/photo-2.jpg" alt="Frontend Developer" width="270" height="260" />
                     <h3 class="list-heroes" >Ольга Репина</h3>
                      <p class="list-specialties" >Product Designer</p>
                 </li>
-                <li>
+                <li class="list-team">
                     <img src="./images/photo-3.jpg" alt="Marketing" width="270" height="260" />
                     <h3 class="list-heroes" >Николай Тарасов</h3>
                     <p class="list-specialties" >Marketing</p>
                 </li>
-                <li>
+                    <li class="list-team">
                     <img src="./images/photo-4.jpg" alt="UI Designer" width="270" height="260" />
                     <h3 class="list-heroes" >Михаил Ермаков</h3>
                     <p class="list-specialties">UI Designer</p>
                  </li>
             </ul>
         </section>
+        </div>
     </main>
     <!--Контакты -->
     <footer class="footer-link">
@@ -136,7 +140,7 @@
          <li><a class="link footer-tel" href="tel:+380961111111">+38 096 111 11 11</a></li> 
         </ul>
         </address>
-        </div>
+        
     </footer>
 
 </body>
