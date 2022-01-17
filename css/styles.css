@@ -32,7 +32,6 @@
 /*------------------------НEADER------------------------*/
 
 .main-nav {
-  
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -55,7 +54,6 @@
   margin-left: 93px;
 }
 .header-item {
-
   margin-right: 50px;
 }
 .header-item:last-child {
@@ -94,6 +92,7 @@
   color: var(--accent-color);
 }
 .list-contacts {
+  font-weight: 500;
   display: flex;
   padding: 0px;
   margin: 0px;
@@ -112,6 +111,7 @@
 }*/
 
 .section-title {
+  padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
   margin: 0px;
@@ -120,8 +120,8 @@
 
 .title {
   margin: 0px;
-  padding-bottom: 30px;
-  padding-top: 200px;
+  margin-bottom: 30px;
+
   font-weight: 900;
 
   font-size: 44px;
@@ -150,18 +150,16 @@
 /*------------------------Section(Преимущества)------------------------*/
 
 .section-list {
-  
   padding-bottom: 94px;
   padding-top: 94px;
-
 
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 .list {
- margin-top: 0px;
- margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   padding: 0px;
   display: flex;
 }
@@ -180,7 +178,6 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
-  
 }
 .list-task {
   padding: 0px;
@@ -193,18 +190,19 @@
 }
 
 /*------------------------Section(Чем занимаемся)------------------------*/
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 .about {
-  
   width: 1200px;
   margin-top: 0px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
-
-  
 }
 .about-title {
- 
   margin-top: 0px;
   margin-bottom: 50px;
   font-weight: bold;
@@ -215,11 +213,11 @@
   color: var(--second-title-color);
 }
 .list-about-list {
-   justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 94px;
   display: flex;
   margin: 0px;
- 
+
   padding-bottom: 0px;
   padding: 0px 0px;
 }
@@ -232,18 +230,17 @@
 
 /*------------------------Section(Наша команда)------------------------*/
 .heroes {
-  
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 94px;
-  
+
   text-align: center;
   background: #f5f4fa;
 }
 .about-heroes {
   margin: 0px;
 
-  padding: 94px 0px 50px 0px;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -255,9 +252,10 @@
 .heroes-list {
   display: flex;
   margin: 0px;
-
+  margin-left: auto;
+  margin-right: auto;
   padding: 0px;
-  justify-content: space-between;
+  justify-content: center;
 }
 .list-team {
   background: #ffffff;
@@ -299,11 +297,9 @@
 .footer-link {
   background: #2f303a;
 }
-.footer-nav {
-  margin: 0px;
-  padding: 60px 1240px 20px 215px;
-}
+
 .footer-logo {
+  margin-bottom: 20px;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -311,18 +307,18 @@
   color: var(--accent-color);
 }
 .footer-list {
-  width: 231px;
-  padding: 0px;
-  margin: 20px 1154px 60px 215px;
   display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  width: 231px;
 }
 .footer-logo-color {
   color: var(--first-title-color);
 }
 
 .footer-adress {
-  margin: 0px;
-  padding: 0px 0px 9px 0px;
+  margin-bottom: 9px;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -334,7 +330,7 @@
 .footer-mailto,
 .footer-tel {
   margin: 0px;
-  padding: 0px 0px 9px 0px;
+  margin-bottom: 9px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -342,9 +338,9 @@
   color: rgba(255, 255, 255, 0.6);
 }
 .footer-tel {
-  margin: 0px;
-  padding: 0px 0px 0px 0px;
+  margin-bottom: 0px;
 }
+
 .footer-mailto:hover,
 .footer-mailto:focus,
 .footer-tel:hover,
@@ -357,15 +353,18 @@
 /*------------------------PORTFOLIO------------------------*/
 
 /*------------------------ФИЛЬТРЫ------------------------*/
+.portfolio {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
 .portfolio-filters {
   display: flex;
- justify-content: center;
+  justify-content: center;
 
   margin: 0px;
-  padding:0px;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  padding: 0px;
 
+  margin-bottom: 50px;
 }
 .filters-btn {
   margin-left: 8px;
@@ -394,19 +393,17 @@
 }
 /*------------------------Список инструментов------------------------*/
 .list-portfolio {
-  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   padding: 0px;
   margin: 0px;
   cursor: pointer;
-  padding-bottom: 94px;
 }
+
 .list-tool-portfolio {
   width: 380px;
-  width:calc(100/3);
+  width: calc(100 / 3);
   margin-right: 30px;
   margin-bottom: 30px;
   background: #ffffff;
@@ -419,10 +416,14 @@
 .list-tool-portfolio:nth-child(3n) {
   margin-right: 0px;
 }
+.div-portfolio-list {
+  padding-left: 24px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 
+  margin: 0px;
 }
-.list-decision-portfolio{
- 
+.list-decision-portfolio {
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -430,7 +431,6 @@
   letter-spacing: 0.06em;
 }
 .list-tool {
-
   margin: 0px;
   width: 322px;
 
@@ -438,8 +438,6 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
 /*------------------------ГEOМЕТРИЯ СТИЛЕЙ------------------------*/
 html {
