@@ -236,6 +236,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   padding-bottom: 94px;
+  
   text-align: center;
   background: #f5f4fa;
 }
@@ -429,7 +430,7 @@
   letter-spacing: 0.06em;
 }
 .list-tool {
-  padding-left: 24px;
+
   margin: 0px;
   width: 322px;
 
@@ -437,6 +438,8 @@
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: #757575;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 /*------------------------ГEOМЕТРИЯ СТИЛЕЙ------------------------*/
 html {
