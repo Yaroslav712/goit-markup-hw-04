@@ -7,7 +7,8 @@
 }
 .body {
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
 .list,
@@ -34,7 +35,10 @@
 .main-nav {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+}
+.nav-header {
+  display: flex;
+  align-items: center;
 }
 .header-logo {
   font-family: Raleway;
@@ -346,7 +350,6 @@ img {
   display: inline-block;
   padding: 0px;
   margin: 0px;
-  
 }
 .footer-logo-color {
   color: var(--first-title-color);
@@ -392,7 +395,6 @@ img {
 .portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
-  
 }
 .portfolio-filters {
   display: flex;
@@ -429,8 +431,14 @@ img {
   background-color: var(--accent-color);
 }
 
-}
+/*-  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;-/*
 /*------------------------Список инструментов------------------------*/
+.nav-tool-portfolio {
+  display: block;
+}
+
 .list-portfolio {
   display: flex;
   flex-wrap: wrap;
@@ -441,7 +449,7 @@ img {
 }
 
 .list-tool-portfolio {
-  width: 380px;
+  width: 370px;
   width: calc(100 / 3);
   margin-right: 30px;
   margin-bottom: 30px;
