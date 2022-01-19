@@ -7,8 +7,7 @@
 }
 .body {
   margin: 0px;
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji';
+  font-family: Roboto, sans-serif;
 }
 
 .list,
@@ -23,7 +22,8 @@
 
 .link,
 .link-header-link,
-.link-current-header-link {
+.link-current-header-link,
+.nav-tool-portfolio {
   text-decoration: none;
 }
 .link-current {
@@ -195,6 +195,7 @@
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.03em;
+  color: var(--header-color);
 }
 .list-task {
   padding: 0px;
@@ -346,6 +347,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--accent-color);
 }
+
 .footer-list {
   display: inline-block;
   padding: 0px;
@@ -354,10 +356,13 @@ img {
 .footer-logo-color {
   color: var(--first-title-color);
 }
-
-.footer-adress {
+.li-item {
   margin-bottom: 9px;
-
+}
+.li-item:last-child {
+  margin-bottom: 0px;
+}
+.footer-adress {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -369,15 +374,12 @@ img {
 .footer-mailto,
 .footer-tel {
   margin: 0px;
-  margin-bottom: 9px;
+
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-.footer-tel {
-  margin-bottom: 0px;
 }
 
 .footer-mailto:hover,
@@ -480,6 +482,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   margin: 0px;
+  color: #212121;
 }
 .list-tool {
   margin: 0px;
