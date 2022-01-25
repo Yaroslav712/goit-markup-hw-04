@@ -16,7 +16,8 @@ body {
 .footer-list,
 .about-item,
 .list-contacts,
-.list-team {
+.list-team,
+.masters-social-list {
   list-style: none;
 }
 
@@ -123,11 +124,16 @@ body {
 }*/
 
 .section-title {
+  background-color: #2f303a;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
   margin: 0px;
-  background: #2f303a;
 }
 .div-title-section {
   width: 1200px;
@@ -331,6 +337,30 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.masters-social-list {
+  padding: 0px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+.masters-social-item + .masters-social-item {
+  margin-left: 10px;
+}
+.masters-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.masters-social-icon {
+  background-color: violet;
+  width: 20px;
+  height: 20px;
+  fill: white;
 }
 /*------------------------FOOTER------------------------*/
 
