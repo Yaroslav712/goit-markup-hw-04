@@ -350,17 +350,22 @@ img {
 .masters-social-link {
   width: 44px;
   height: 44px;
-  background-color: teal;
+  background-color: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
 }
 .masters-social-icon {
-  background-color: violet;
-  width: 20px;
-  height: 20px;
-  fill: white;
+  fill: #afb1b8;
+}
+.masters-social-link:hover,
+.masters-social-link:focus {
+  background-color: #2196f3;
+}
+.masters-social-link:hover .masters-social-icon,
+.masters-social-link:focus .masters-social-icon {
+  fill: #ffffff;
 }
 /*------------------------FOOTER------------------------*/
 
