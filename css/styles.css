@@ -17,7 +17,8 @@ body {
 .about-item,
 .list-contacts,
 .list-team,
-.masters-social-list {
+.masters-social-list,
+.benefits-picture {
   list-style: none;
 }
 
@@ -220,7 +221,20 @@ body {
   letter-spacing: 0.03em;
   color: #757575;
 }
-
+.benefits-picture {
+  padding: 0px;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.benefits-picture-link {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*------------------------Section(Чем занимаемся)------------------------*/
 img {
   display: block;
@@ -366,6 +380,42 @@ img {
 .masters-social-link:hover .masters-social-icon,
 .masters-social-link:focus .masters-social-icon {
   fill: #ffffff;
+}
+/*----------------REGULAR-COSTOMERS----------------------*/
+.about-costomers {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.div-regular-costomers {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.regular-costomers-list {
+  padding: 0px;
+  display: flex;
+}
+.regular-costomers-item {
+  width: 170px;
+  height: 92px;
+
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+}
+
+.regular-costomers-item + .regular-costomers-item {
+  margin-left: 30px;
+}
+.regular-costomers-icon {
+  background-color: aqua;
 }
 /*------------------------FOOTER------------------------*/
 
