@@ -25,6 +25,8 @@ body {
 .link,
 .link-header-link,
 .link-current-header-link,
+.link-header-tel,
+.link-header-email,
 .nav-tool-portfolio {
   text-decoration: none;
 }
@@ -79,8 +81,8 @@ body {
   display: block;
 }
 .header-link,
-.header-email,
-.header-tel {
+.link-header-email,
+.link-header-tel {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -89,18 +91,26 @@ body {
   color: var(--header-color);
 }
 
-.header-email,
-.header-tel {
+.link-header-email,
+.link-header-tel {
   color: #757575;
 }
 
 .header-link:hover,
 .header-link:focus,
-.header-email:hover,
-.header-email:focus,
-.header-tel:hover,
-.header-tel:focus {
+.link-header-email:hover,
+.link-header-email:focus,
+.link-header-tel:hover,
+.link-header-tel:focus {
   color: var(--accent-color);
+}
+.link-header-email:hover .header-icon,
+.link-header-email:focus .header-icon {
+  fill: var(--accent-color);
+}
+.link-header-tel:hover .header-icon,
+.link-header-tel:focus .header-icon {
+  fill: var(--accent-color);
 }
 .link-current {
   color: var(--accent-color);
@@ -114,6 +124,13 @@ body {
 }
 .list-contacts.header-item + .header-item {
   margin-left: 50px;
+}
+.about-header {
+  padding: 0px;
+}
+.header-icon {
+  fill: #757575;
+  margin-right: 10px;
 }
 /*.header-tel 
 {
@@ -145,10 +162,11 @@ body {
 }
 .title {
   margin: 0px;
+
   margin-bottom: 30px;
 
   font-weight: 900;
-
+  text-align: center;
   font-size: 44px;
   line-height: 1.5;
   letter-spacing: 0.06em;
@@ -170,6 +188,10 @@ body {
   color: #ffffff;
   cursor: pointer;
   background-color: var(--accent-color);
+}
+.header-btn:hover,
+.header-btn:focus {
+  background-color: #188ce8;
 }
 
 /*------------------------Section(Преимущества)------------------------*/
@@ -444,7 +466,7 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
-  margin-right: auto;
+  margin-top: auto;
 }
 
 .footer-logo {
@@ -500,7 +522,49 @@ img {
   color: var(--accent-color);
 }
 .about-social-footer {
-  background-color: lawngreen;
+  margin-left: 70px;
+}
+.div-footer {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-footer {
+  margin: 0px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.social-footer-item {
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.social-footer-item:hover,
+.social-footer-item:focus {
+  background: #2196f3;
+}
+.social-footer-item + .social-footer-item {
+  margin-left: 10px;
+}
+
+.social-footer-list {
+  margin: 0px;
+  display: inline-flex;
+  padding: 0px;
+}
+.social-footer-icon {
+  fill: #ececec;
 }
 /*------------------------PORTFOLIO------------------------*/
 
@@ -576,6 +640,13 @@ img {
 .list-tool-portfolio:nth-child(3n) {
   margin-right: 0px;
 }
+.list-portfolio .list-tool-portfolio:hover,
+.list-portfolio .list-tool-portfolio:focus {
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .nav-tool-portfolio {
   display: block;
 }
