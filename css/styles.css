@@ -405,6 +405,7 @@ img {
 }
 /*----------------REGULAR-COSTOMERS----------------------*/
 .about-costomers {
+  margin-top: 0px;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -413,8 +414,8 @@ img {
   letter-spacing: 0.03em;
 }
 .regular-costomers {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .div-regular-costomers {
   width: 1200px;
@@ -425,6 +426,7 @@ img {
   margin-right: auto;
 }
 .regular-costomers-list {
+  margin: 0px;
   padding: 0px;
   display: flex;
 }
