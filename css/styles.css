@@ -200,7 +200,6 @@ body {
   padding-bottom: 94px;
   padding-top: 94px;
 
-  width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -443,6 +442,7 @@ img {
 }
 .regular-costomers-item {
   display: flex;
+  width: 170px;
 }
 .regular-costomers-link {
   display: flex;
